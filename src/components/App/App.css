@@ -1,0 +1,58 @@
+/* Universal Styles */
+
+html {
+  font-size: 18px;
+}
+
+@media only screen and (max-width: 560px) {
+  html {
+    font-size: 15px;
+  }
+}
+
+input:focus {
+  outline: none;
+}
+
+/* Reusable Component - Image Container */
+
+.image-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow: hidden;
+  background: #000;
+}
+
+.image-container img {
+  width: 100%;
+}
+
+/* App Styles */
+
+.App {
+  font-family: 'Work Sans', sans-serif;
+}
+
+.center-this{
+  text-align: center;
+}
+
+.sample-button{
+  border-radius: 5px;
+  padding: .50rem 1.7rem;
+  margin: 0.5rem;
+  background-color: black;
+  color: #ffffff;
+  font-weight: 600;
+  transition: background-color .5s;
+}
+
+h1 {
+  padding: .66rem 0;
+  text-align: center;
+  background-color: #cc0066;
+  font-family: Poppins, sans-serif;
+  font-size: 1.8rem;
+  color: #fff;
+}
